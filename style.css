@@ -58,9 +58,107 @@
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
-    width: 100px;
+    width: 150px;
     height: 35px;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 500;
+}
+
+/*Information section*/
+.information-section {
+    padding: 5% 20%;
+}
+
+.big-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+.card-pic {
+    height: 200px;
+    width: 200px;
+    border: 4px #3882F6 solid;
+    border-radius: 15px;
+}
+
+.card p {
+    color: #1F2937;
+}
+
+/*Quote section*/
+.quote-section {
+    padding: 5% 30%;
+    background-color: #E5E7EB;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote-section .cite {
+    text-align: right;
+}
+
+/*Call to action*/
+.call-to-act {
+    margin: 5% 20%;
+}
+
+.content {
+    height: 200px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 15%;
+    border-radius: 20px;
+}
+
+#cta {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 7px;
+}
+
+#ctas {
+    margin: 0px 7px;
+    color: #F9FAF8;
+}
+
+.outline-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px #F9FAF8 solid;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*Footer*/
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 40px 0%;
 }
